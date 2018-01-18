@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 95%;
+}
+button,
+select {
+  background-color: transparent;
+  border-radius: 2px;
+  border-style: solid;
+  font-size: 1.3rem;
+  border-width: 3px;
+  height: 3rem;
+  margin-bottom: 20px;
+  width: 10rem;
+}
+canvas {
+  display: none;
+}
+header {
+  background-color: rgba(254,247,120,0.9);
+  color: #111;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+video {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+#photo-button {
+  border-color: #2e14f3;
+  color: #2e14f3;
+}
+#clear-button {
+  background-color: transparent;
+  border-color: #fba746;
+  color: #fba746;
+}
