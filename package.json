@@ -1,0 +1,28 @@
+{
+  "name": "webrtc-picture-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewUsher/webrtc-picture-app.git"
+  },
+  "keywords": [],
+  "author": "Andrew Usher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewUsher/webrtc-picture-app/issues"
+  },
+  "homepage": "https://github.com/AndrewUsher/webrtc-picture-app#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-stylus": "^2.7.0"
+  }
+}
