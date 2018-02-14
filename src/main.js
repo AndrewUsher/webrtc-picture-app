@@ -28,20 +28,19 @@ video.addEventListener('canplay', function (event) {
     // set canvas height
     height = video.videoHeight / (video.videoWidth / width)
 
-
     video.setAttribute('width', width)
     video.setAttribute('height', height)
     canvas.setAttribute('width', width)
     canvas.setAttribute('height', height)
 
-    streaming = true;
+    streaming = true
   }
 }, false)
 
 photoButton.addEventListener('click', function (event) {
-  takePicture();
+  takePicture()
 
-  event.preventDefault();
+  event.preventDefault()
 }, false)
 
 clearButton.addEventListener('click', event => {
@@ -58,7 +57,7 @@ photoFilter.addEventListener('change', event => {
   event.preventDefault()
 })
 
-function takePicture() {
+function takePicture () {
   const ctx = canvas.getContext('2d')
   if (width && height) {
     // set canvas props
@@ -66,9 +65,9 @@ function takePicture() {
     canvas.height = height
     // draw image of video onto canvas
     ctx.drawImage(video, 0, 0, width, height)
-    // create image from canvas 
+    // create image from canvas
     var imgUrl = canvas.toDataURL('image/png')
-    // 
+    //
     const img = document.createElement('img')
     //
     img.setAttribute('src', imgUrl)
